@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins'; 
+}
+.container{
+    width: 1200px;
+  margin-inline:auto;
+  
+}
+header{
+    background-color: rgb(24, 41, 110);
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 2% 76%);
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+
+}
+#left{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#contact{
+    margin-top: 20px;
+    padding:10px 30px;
+    font-weight: 900;
+    background-color: rgb(55, 203, 168);
+    border:3px solid transparent;
+    color: #ae4b4b;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#contact:hover{
+    color: rgb(0, 0, 0);
+    background-color:  #97efb8;
+    border: 3px solid  rgb(11, 11, 11);
+}
+ a{
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(255, 10, 169);
+}
+#hero{
+    margin-inline:auto;
+    margin-top: auto;
+    display: flex;
+    color: azure;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#download{
+    cursor: pointer;
+}
+#image{
+    border-radius: 30px;
+    margin-top: auto;
+}
+#heroright{
+    text-align: right;
+    width: 500px;
+    
+}
+#heroright h5{
+    color: cadetblue;
+}
+#heroright span{
+    color: chocolate;
+}
